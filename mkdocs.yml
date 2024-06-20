@@ -1,6 +1,6 @@
-site_name: Documentação GIMI
-repo_url: https://github.com/Eduardo-Milagres/documentacao_gimi
-repo_name: documentacao_gimi
+site_name: Meu conhecimento blog
+repo_url: https://github.com/Eduardo-Milagres/meu-conhecimento-blog
+repo_name: meu-conhecimento-blog
 edit_uri: tree/main/docs
 
 theme: 
