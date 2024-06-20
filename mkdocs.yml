@@ -1,0 +1,49 @@
+site_name: Documentação GIMI
+repo_url: https://github.com/Eduardo-Milagres/documentacao_gimi
+repo_name: documentacao_gimi
+edit_uri: tree/main/docs
+
+theme: 
+  name: material
+  language: pt-BR
+markdown_extensions:
+  - admonition
+  - nl2br
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji  # Suporte a emojis
+  - pymdownx.tasklist  # Suporte para tarefas
+  - pymdownx.mark  # Suporte para marcações
+  - pymdownx.tilde  # Suporte a tachado
+  - pymdownx.highlight  # Suporte a código
+plugins:
+  - macros
+  - search
+  - callouts
+
+extra:
+  nomes:
+    github_doc_repo: documentacao_gimi
+    perfil_viga: perfil U 
+  links:
+    markdown: https://www.markdownguide.org/
+    material: https://squidfunk.github.io/mkdocs-material/
+    mkdocs: https://www.mkdocs.org/
+    mkdocs_instalacao: https://www.mkdocs.org/user-guide/installation/
+    python: https://www.python.org/
+    python_download: https://www.python.org/downloads/
+    github: https://github.com/
+    github_doc_repo: https://github.com/Eduardo-Milagres/documentacao_gimi
+    github_material: https://squidfunk.github.io/mkdocs-material/publishing-your-site/
+    netlify: https://app.netlify.com/
+    netlify_doc_link: https://documentacaogimi.netlify.app/
+    pymdown_extensions: https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/
+    mkdocs_collouts: https://oprypin.github.io/markdown-callouts/index.html
+    padroes_commit: https://github.com/iuricode/padroes-de-commits
+  imagens:
+    python_instalacao: <img src='/assets/images/instalacao_python.png'>
+    botao_source_control_vscode: <img src='/assets/images/vscode_source_code_button.png' width='250' height='250'>
+    botao_stage_change_vscode: <img src='/assets/images/vscode_stage_change_button.png' width='250' height='250'>
+    botao_manufatura_iapp: <img src='/assets/images/botao_manufatura_iapp.png' width='100' height='100'>
